@@ -14,7 +14,7 @@ const Contact = () => {
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#FBB574] text-gray-300">
-            Contact
+            {"<Contact>"}
           </p>
           <p className="text-gray-300 py-4">
             Submit the form below or send me an email at - igkrstovic@gmail.com
@@ -40,9 +40,9 @@ const Contact = () => {
         ></textarea>
         <button
           type="submit"
-          className="text-white border-2 hover:bg-[#FBB574] hover:border-white px-4 py-3 my-8 mx-auto flex items-center font-bold"
+          className="text-white border-2 hover:bg-[#d9b326] hover:border-white px-4 py-3 my-8 mx-auto flex items-center font-bold"
         >
-          LET'S COLLABORATE
+          LET'S COdENECT
         </button>
       </form>
     </div>

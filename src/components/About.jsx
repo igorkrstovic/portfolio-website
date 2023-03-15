@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#6eb5f1]">
-              About
+              {"<AboutMe/>"}
             </p>
           </div>
           <div></div>

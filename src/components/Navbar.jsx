@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#000000] text-[#d9b326]">
+    <div className="fixed z-10  w-full h-[60px] flex justify-between items-center px-4 bg-[#000000] text-[#d9b326]">
       <div>
         <img src={Logo} alt="Logo" style={{ width: "100px" }} />
       </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
         </li>
         <li className="hover:text-white duration-300">
           <Link to="work" smooth={true} duration={500}>
-            {"<WORK>"}
+            {"<PROJECTS>"}
           </Link>
         </li>
         <li className="hover:text-white duration-300">
@@ -91,7 +91,7 @@ const Navbar = () => {
 
       <div className=" flex fixed flex-col top-[35%] left-0 font-bold">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 shadow">
             <a
               className="flex justify-between items-center w-full text-grey-300 "
               href="https://www.linkedin.com/in/igor-krstovic/"
@@ -101,7 +101,7 @@ const Navbar = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 shadow">
             <a
               className="flex justify-between items-center w-full text-grey-300 "
               href="https://github.com/igorkrstovic"
@@ -111,7 +111,7 @@ const Navbar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 shadow">
             <a
               className="flex justify-between items-center w-full text-grey-300 "
               href={PDF}
