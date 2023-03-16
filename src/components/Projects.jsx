@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import JAPAN from "../assets/japan.gif";
+import JAPAN1 from "../assets/japan1.gif";
 import JAPANWEB from "../assets/japanWeb.gif";
 // import { GoMarkGithub, GoEye } from "react-icons/go";
 
@@ -29,8 +30,8 @@ const Projects = () => {
             {/* SLIDER no1 */}
             <SwiperSlide className="text-center text-lg ">
               <div
-                style={{ backgroundImage: `url(${JAPAN})` }}
-                className=" bg-cover bg-center shadow-lg shadow-[#040c16] group container flex justify-center items-center mx-auto content-div w-100% h-[50vm]"
+                style={{ backgroundImage: `url(${JAPAN1})` }}
+                className=" bg-cover bg-center shadow-xl shadow-[#040c1668] group container flex justify-center items-center mx-auto content-div w-100% h-[50vm]"
               ></div>
               <div className="pt-8 text-center">
                 <a
