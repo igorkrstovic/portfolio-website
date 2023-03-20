@@ -4,10 +4,17 @@ import { Navigation } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 
+import HTML from "../assets/html.png";
+import CSS from "../assets/css.png";
+import AXIOS from "../assets/Axios.png";
+import JavaScript from "../assets/javascript.png";
+import ReactImg from "../assets/react.png";
+import Tailwind from "../assets/tailwind.png";
+import Twitch from "../assets/Twitch.png";
+import Unsplash from "../assets/Unsplash.png";
 import JAPAN from "../assets/japan.gif";
 import JAPAN1 from "../assets/japan1.gif";
 import JAPANWEB from "../assets/japanWeb.gif";
-// import { GoMarkGithub, GoEye } from "react-icons/go";
 
 const Projects = () => {
   return (
@@ -29,9 +36,16 @@ const Projects = () => {
           <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-5 ">
             {/* SLIDER no1 */}
             <SwiperSlide className="text-center text-lg ">
+              <div className=" sm:grid-cols-3 md:grid-cols-3 gap-14 mb-5  justify-center items-center flex ">
+                <img className="w-11" src={HTML} alt="HTML icon" />
+                <img className="w-11" src={JavaScript} alt="HTML icon" />
+                <img className="w-11" src={ReactImg} alt="HTML icon" />
+                <img className="w-11" src={Tailwind} alt="HTML icon" />
+              </div>
+
               <div
                 style={{ backgroundImage: `url(${JAPAN1})` }}
-                className=" bg-cover bg-center shadow-xl shadow-[#040c1668] group container flex justify-center items-center mx-auto content-div w-100% h-[50vm]"
+                className=" bg-cover bg-center group container flex justify-center items-center mx-auto content-div w-100% h-[50vm]"
               ></div>
               <div className="pt-8 text-center">
                 <a
@@ -40,14 +54,12 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <button className="bg-white border-2 border-black hover:bg-[#f1f1f1]  justify-center items-center text-black font-bold py-1 px-14 mx-2 ">
-                    {/* <GoMarkGithub color="black" size="1.5rem" /> */}
                     GITHUB
                   </button>
                 </a>
                 <a href="/">
                   <button className="bg-white border-2 border-black hover:bg-[#f8f8f8]  justify-center items-center text-black font-bold py-1 px-16 mx-2">
-                    {/* <GoEye color="black" size="1.5rem" /> */}
-                    LIVE
+                    ABOUT
                   </button>
                 </a>
               </div>
@@ -56,6 +68,14 @@ const Projects = () => {
             {/* SLIDER no2 */}
 
             <SwiperSlide className="text-center text-lg">
+              <div className=" sm:grid-cols-3 md:grid-cols-3 gap-9 mb-5  justify-center items-center flex ">
+                <img className="w-11" src={JavaScript} alt="JavaScript icon" />
+                <img className="w-11" src={ReactImg} alt="React icon" />
+                <img className="w-11" src={CSS} alt="CSS icon" />
+                <img className="w-11" src={AXIOS} alt="Axios icon" />
+                <img className="w-11" src={Unsplash} alt="Unsplash icon" />
+              </div>
+
               <div
                 style={{ backgroundImage: `url(${JAPANWEB})` }}
                 className=" bg-cover bg-center  group container rounded-md flex justify-center items-center mx-auto  content-div w-100% h-[50vm]"
@@ -67,14 +87,12 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <button className="bg-white border-2 border-black hover:bg-[#f1f1f1]  justify-center items-center text-black font-bold py-1 px-14 mx-2 ">
-                    {/* <GoMarkGithub color="black" size="1.5rem" /> */}
                     GITHUB
                   </button>
                 </a>
                 <a href="/">
                   <button className="bg-white border-2 border-black hover:bg-[#f8f8f8]  justify-center items-center text-black font-bold py-1 px-16 mx-2">
-                    {/* <GoEye color="black" size="1.5rem" /> */}
-                    LIVE
+                    ABOUT
                   </button>
                 </a>
               </div>
@@ -83,6 +101,13 @@ const Projects = () => {
             {/* SLIDER no3 */}
 
             <SwiperSlide className="text-center text-lg">
+              <div className=" sm:grid-cols-3 md:grid-cols-3 gap-8 mb-5  justify-center items-center flex ">
+                <img className="w-11" src={JavaScript} alt="JavaScript icon" />
+                <img className="w-11" src={ReactImg} alt="React icon" />
+                <img className="w-11" src={CSS} alt="CSS icon" />
+                <img className="w-11" src={AXIOS} alt="HTML icon" />
+                <img className="w-11" src={Twitch} alt="Twitch icon" />
+              </div>
               <div
                 style={{ backgroundImage: `url(${JAPAN})` }}
                 className=" bg-cover bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-100% h-[50vm]"
@@ -94,14 +119,12 @@ const Projects = () => {
                   rel="noreferrer"
                 >
                   <button className="bg-white border-2 border-black hover:bg-[#f1f1f1]  justify-center items-center text-black font-bold py-1 px-14 mx-2 ">
-                    {/* <GoMarkGithub color="black" size="1.5rem" /> */}
                     GITHUB
                   </button>
                 </a>
                 <a href="/">
                   <button className="bg-white border-2 border-black hover:bg-[#f8f8f8]  justify-center items-center text-black font-bold py-1 px-16 mx-2">
-                    {/* <GoEye color="black" size="1.5rem" /> */}
-                    LIVE
+                    ABOUT
                   </button>
                 </a>
               </div>
