@@ -12,7 +12,7 @@ import ReactImg from "../assets/react.png";
 import Tailwind from "../assets/tailwind.png";
 import Twitch from "../assets/Twitch.png";
 import Unsplash from "../assets/Unsplash.png";
-import JAPAN from "../assets/japan.gif";
+import NotiMe from "../assets/NotiMe.gif";
 import JAPAN1 from "../assets/japan1.gif";
 import JAPANWEB from "../assets/japanWeb.gif";
 
@@ -36,11 +36,12 @@ const Projects = () => {
           <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-5 ">
             {/* SLIDER no1 */}
             <SwiperSlide className="text-center text-lg ">
-              <div className=" sm:grid-cols-3 md:grid-cols-3 gap-14 mb-5  justify-center items-center flex ">
+              <div className=" sm:grid-cols-3 md:grid-cols-3 gap-9 mb-5  justify-center items-center flex ">
                 <img className="w-11" src={HTML} alt="HTML icon" />
                 <img className="w-11" src={JavaScript} alt="HTML icon" />
                 <img className="w-11" src={ReactImg} alt="HTML icon" />
                 <img className="w-11" src={Tailwind} alt="HTML icon" />
+                <img className="w-11" src={Unsplash} alt="Unsplash icon" />
               </div>
 
               <div
@@ -109,8 +110,8 @@ const Projects = () => {
                 <img className="w-11" src={Twitch} alt="Twitch icon" />
               </div>
               <div
-                style={{ backgroundImage: `url(${JAPAN})` }}
-                className=" bg-cover bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div w-100% h-[50vm]"
+                style={{ backgroundImage: `url(${NotiMe})` }}
+                className=" bg-cover bg-center shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div3 w-100% h-[50vm]"
               ></div>
               <div className="pt-8 text-center">
                 <a
