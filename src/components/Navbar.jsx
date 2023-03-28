@@ -89,11 +89,11 @@ const Navbar = () => {
 
       {/* SOCIAL ICONS */}
 
-      <div className=" flex fixed flex-col top-[35%] left-0 font-bold">
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0 font-bold ">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 shadow">
             <a
-              className="flex justify-between items-center w-full text-grey-300 "
+              className="flex justify-between items-center w-full"
               href="https://www.linkedin.com/in/igor-krstovic/"
               target="_blank"
               rel="noreferrer"
@@ -103,7 +103,7 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 shadow">
             <a
-              className="flex justify-between items-center w-full text-grey-300 "
+              className="flex justify-between items-center w-full"
               href="https://github.com/igorkrstovic"
               target="_blank"
               rel="noreferrer"
@@ -113,9 +113,10 @@ const Navbar = () => {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 shadow">
             <a
-              className="flex justify-between items-center w-full text-grey-300 "
+              className="flex justify-between items-center w-full"
               href={PDF}
-              download="Igor Krstovic Resume 2023.pdf"
+              target="_blank"
+              rel="noreferrer"
             >
               Resume <FiDownloadCloud size={30} />
             </a>

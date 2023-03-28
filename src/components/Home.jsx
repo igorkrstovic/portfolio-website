@@ -16,7 +16,7 @@ const Home = () => {
         </h2>
 
         {/* type text start */}
-        <div class="w-10 h-10">
+        <div class="w-10 h-10 hidden sm:block">
           <div class="absolute inset-0 bg-transparent bg-center z-0 "></div>
           <div class="relative w-full  sm:mx-auto sm:max-w-lg sm:rounded-lg text-start sm:px-1">
             <div class="text-[#49ADE4]  text-lg font-bold border-r-2 border-black w-[34ch] whitespace-nowrap overflow-hidden animate-typing">

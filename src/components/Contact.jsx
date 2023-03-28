@@ -8,6 +8,11 @@ const Contact = () => {
     navigator.clipboard.writeText(email);
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    event.target.reset();
+  };
+
   return (
     <div
       name="contact"
@@ -16,15 +21,16 @@ const Contact = () => {
       <form
         method="POST"
         action="https://getform.io/f/8ee8743d-69cf-4da3-9e1e-d7edd58d3479"
-        className="absolute flex flex-col max-w-[600px] w-full"
+        className="absolute  flex flex-col max-w-[600px] w-full"
         target="_blank"
+        onSubmit={handleSubmit}
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#d9b326] text-gray-300">
             {"<Contact>"}
           </p>
           <p className="text-gray-300 py-4">
-            Submit the form below or send me an email at - {""}
+            Submit the form below or send me an email at -
             <span onClick={handleCopyEmail} style={{ cursor: "pointer" }}>
               igkrstovic@gmail.com
             </span>

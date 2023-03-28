@@ -13,6 +13,8 @@ import Tailwind from "../assets/tailwind.png";
 import Twitch from "../assets/Twitch.png";
 import Unsplash from "../assets/Unsplash.png";
 import NotiMe from "../assets/NotiMe.gif";
+import FireBase from "../assets/firebase.png";
+
 import JAPAN1 from "../assets/japan1.gif";
 import JAPANWEB from "../assets/japanWeb.gif";
 
@@ -24,7 +26,7 @@ const Projects = () => {
           <p className="text-4xl font-bold inline border-b-4 text-black border-[#6eb5f1]">
             {"<Projects/>"}
           </p>
-          <p className="py-6 text-black">Check out some of my recent work:</p>
+          <p className="py-6 text-black">Some of my recent work:</p>
         </div>
         <Swiper
           loop={true}
@@ -107,6 +109,7 @@ const Projects = () => {
                 <img className="w-11" src={ReactImg} alt="React icon" />
                 <img className="w-11" src={CSS} alt="CSS icon" />
                 <img className="w-11" src={AXIOS} alt="HTML icon" />
+                <img className="w-11" src={FireBase} alt="Firebase icon" />
                 <img className="w-11" src={Twitch} alt="Twitch icon" />
               </div>
               <div
