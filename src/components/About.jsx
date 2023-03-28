@@ -25,11 +25,11 @@ const About = () => {
                 </p>
                 <br />
                 <p>
-                  I strive to write clean code using programming languages such
-                  as ReactJS, JavaScript, HTML5, CSS3, and TailWindCSS.
-                  Additionally, I also build projects using Firebase and MongoDB
-                  databases. I'm constantly on the lookout to learn new skills
-                  and expand my knowledge in web development.
+                  I strive to write clean code using ReactJS, JavaScript, HTML5,
+                  CSS3, and TailWindCSS. Additionally, I also build projects
+                  using Firebase and MongoDB databases. I'm constantly on the
+                  lookout to learn new skills and expand my knowledge in web
+                  development.
                 </p>
                 <br />
                 <p>
