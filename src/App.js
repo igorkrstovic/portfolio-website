@@ -8,14 +8,13 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div>
-      <h1>
         <Navbar />
         <Home />
         <About />
         <Skills />
         <Projects />
         <Contact />
-      </h1>
+     
     </div>
   );
 }
